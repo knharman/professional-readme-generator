@@ -1,0 +1,24 @@
+{
+  "dependencies": {
+    "inquirer": "^8.2.0"
+  },
+  "name": "professional-readme-generator",
+  "description": "[How to create a Professional README](./readme-guide.md)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knharman/professional-readme-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/knharman/professional-readme-generator/issues"
+  },
+  "homepage": "https://github.com/knharman/professional-readme-generator#readme"
+}
