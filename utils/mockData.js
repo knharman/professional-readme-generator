@@ -1,12 +1,12 @@
 const mockData = {
     emailAddress: 'knharman@gmail.com',
     githubUsername: 'knharman',
-    projectTitle: 'portfolio',
+    projectTitle: 'portfolio generator',
     description: 'make a portfolio',
     installationInstructions: 'install',
     usageInformation: 'use',
     contributionGuidelines: 'contribute',
-    licenseInformation: 'MIT',
+    licenseInformation: { uiName: 'Apache', linkName: 'apache-2.0' },
     testInstructions: 'test'
 }
 

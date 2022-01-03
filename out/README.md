@@ -1,5 +1,5 @@
-# portfolio
-  ![license badge](https://img.shields.io/badge/license-MIT-blue)
+# portfolio generator
+  ![license badge](https://img.shields.io/badge/license-Apache-blue)
   ### Description
   make a portfolio
   ### Table of Contents
@@ -16,7 +16,7 @@
   ### Contributions
   contribute
   ### License
-  Licensed under the MIT license.
+  Licensed under the [Apache](https://choosealicense.com/licenses/apache-2.0/) license.
   ### Tests
   test
   ### Questions
