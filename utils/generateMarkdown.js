@@ -26,8 +26,8 @@ function generateMarkdown(data) {
   ### Test Instructions
   ${data.testInstructions}
   ### Questions
-  ${data.emailAddress}
-  [GitHub](https://github.com/${data.githubUsername})
+  If you have additional questions, you can contact me here: ${data.emailAddress}
+  Check out my GitHub: [${data.githubUsername}](https://github.com/${data.githubUsername})
   `;
 }
 

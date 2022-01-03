@@ -10,6 +10,6 @@
   ### Test Instructions
   test
   ### Questions
-  knharman@gmail.com
-  [GitHub](https://github.com/knharman)
+  If you have additional questions, you can contact me here: knharman@gmail.com
+  Check out my GitHub: [knharman](https://github.com/knharman)
   
