@@ -6,6 +6,7 @@ const mockData = {
     installationInstructions: 'install',
     usageInformation: 'use',
     contributionGuidelines: 'contribute',
+    licenseInformation: 'MIT',
     testInstructions: 'test'
 }
 

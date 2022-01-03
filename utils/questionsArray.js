@@ -44,6 +44,12 @@ const questions = [
         validate: validation.checkNotEmpty
     },
     {
+        type: "list",
+        name: "licenseInformation",
+        message: "Choose a license:",
+        choices: ["GNU GPL", "Mozilla Public License", "Apache", "MIT", "Boost Software License", "The Unlicense"]
+    },
+    {
         type: "input",
         name: "testInstructions",
         message: "How can users test your project?",

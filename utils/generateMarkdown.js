@@ -15,15 +15,25 @@ function renderLicenseSection(license) {}
 function generateMarkdown(data) {
   console.log(data)
   return `# ${data.projectTitle}
+  ![license badge](https://img.shields.io/badge/license-${data.licenseInformation}-blue)
   ### Description
   ${data.description}
-  ### Installation Instructions
+  ### Table of Contents
+  * [Installation](#installation)
+  * [Usage](#usage)
+  * [Contributions](#contributions)
+  * [License](#license)
+  * [Tests](#tests)
+  * [Questions](#questions)
+  ### Installation
   ${data.installationInstructions}
-  ### Usage Information
+  ### Usage
   ${data.usageInformation}
-  ### Contribution Guidelines
+  ### Contributions
   ${data.contributionGuidelines}
-  ### Test Instructions
+  ### License
+  Licensed under the ${data.licenseInformation} license.
+  ### Tests
   ${data.testInstructions}
   ### Questions
   If you have additional questions, you can contact me here: ${data.emailAddress}
