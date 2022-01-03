@@ -9,6 +9,12 @@ const questions = [
     },
     {
         type: "input",
+        name: "githubUsername",
+        message: "What is your GitHub Username?",
+        validate: validation.checkNotEmpty
+    },
+    {
+        type: "input",
         name: "projectTitle",
         message: "What is the title of your project?",
         validate: validation.checkNotEmpty
@@ -17,12 +23,6 @@ const questions = [
         type: "input",
         name: "description",
         message: "Please provide a description of your project.",
-        validate: validation.checkNotEmpty
-    },
-    {
-        type: "input",
-        name: "githubUsername",
-        message: "What is your GitHub Username?",
         validate: validation.checkNotEmpty
     },
     {
