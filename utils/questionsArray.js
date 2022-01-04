@@ -49,40 +49,47 @@ const questions = [
         message: "Choose a license:",
         choices: [
             {
-                name: "GNU GPL",
+                name: "No license on this project",
                 value: {
-                    uiName: "GNU GPL",
+                    uiName: "No License",
+                    linkName: "noLicense"
+                }
+            },
+            {
+                name: "GPL",
+                value: {
+                    uiName: "GPL",
                     linkName: "gpl-3.0"
                 }
-            }, 
+            },
             {
                 name: "Mozilla Public License",
                 value: {
                     uiName: "Mozilla Public License",
                     linkName: "mpl-2.0"
                 }
-            }, 
+            },
             {
                 name: "Apache",
                 value: {
                     uiName: "Apache",
                     linkName: "apache-2.0"
                 }
-            }, 
+            },
             {
                 name: "MIT",
                 value: {
                     uiName: "MIT",
                     linkName: "mit"
                 }
-            }, 
+            },
             {
                 name: "Boost Software License",
                 value: {
                     uiName: "Boost Software License",
                     linkName: "bsl-1.0"
                 }
-            }, 
+            },
             {
                 name: "The Unlicense",
                 value: {
@@ -99,13 +106,5 @@ const questions = [
         validate: validation.checkNotEmpty
     }
 ];
-
-const choice = {
-    name: "The Unilicense",
-    value: {
-        uiName: "The Unilicense",
-        linkName: "unilicense"
-    },
-}
 
 module.exports = questions;
