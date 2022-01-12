@@ -1,7 +1,7 @@
-# sjhdf
-  ![license badge](https://img.shields.io/badge/license-Mozilla%20Public%20License-blue)
+# Professional README Generator
+  ![license badge](https://img.shields.io/badge/license-MIT-blue)
   ### Description
-  sapoe
+  A command line application that generates a high-quality README to accompany your project.
   ### Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
@@ -10,16 +10,16 @@
   * [Tests](#tests)
   * [Questions](#questions)
   ### Installation
-  hjfsjd
+  From the root of your project in the command line run the command 'npm init' and answer the series of prompts. Next, run the command 'npm install inquirer.' (You must have Node.js installed on your computer to run these commands.)
   ### Usage
-  jsadfhi\
+  To run the application from the command line use the command 'node index.js' and complete the prompts.
   ### Contributions
-  sdjhf
+  Contributions coming soon!
   ### License
-  Licensed under the [Mozilla Public License](https://choosealicense.com/licenses/mpl-2.0/) license.
+  Licensed under the [MIT](https://choosealicense.com/licenses/mit/) license.
   ### Tests
-  asjhdf
+  Tests coming soon!
   ### Questions
-  If you have additional questions, you can contact me here: a@b.com
-  Check out my GitHub: [sdkjf](https://github.com/sdkjf)
+  If you have additional questions, you can contact me here: knharman@gmail.com
+  Check out my GitHub: [knharman](https://github.com/knharman)
   
