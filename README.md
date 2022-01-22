@@ -12,7 +12,7 @@
   ### Installation
   From the root of your project in the command line run the command 'npm init' and answer the series of prompts. Next, run the command 'npm install inquirer.' (You must have Node.js installed on your computer to run these commands.)
   ### Usage
-  To run the application from the command line use the command 'node index.js' and complete the prompts.
+  To run the application from the command line use the command 'node index.js' and complete the prompts. Click [here](https://drive.google.com/file/d/1nrGYZockVRbI1wCgNDWv3Nl7osajK7xS/view?usp=sharing) to view a brief video demonstrating this app's functionality.
   ### Contributions
   Contributions coming soon!
   ### License
